@@ -1,0 +1,51 @@
+{
+	"name": "nutri-starter",
+	"version": "1.0.0",
+	"license": "MIT",
+	"description": "NutriStarter",
+	"author": "Guillermo Omar Lopez Lopez (omar10594@hotmail.com)",
+	"scripts": {
+		"start": "rm -rf dist/web && webpack --progress --watch",
+		"test": "rm -rf dist/test && webpack --env.env=test --progress && karma start --single-run --reporters progress && stryker run"
+	},
+	"dependencies": {
+		"angular": "^1.6.6",
+		"angular-animate": "^1.6.6",
+		"angular-aria": "^1.6.6",
+		"angular-material": "^1.1.5",
+		"angular-ui-router": "^1.0.3",
+		"chance": "^1.0.11",
+		"jquery": "^3.2.1"
+	},
+	"devDependencies": {
+		"@types/angular": "^1.6.32",
+		"@types/angular-material": "^1.1.54",
+		"@types/angular-ui-router": "^1.1.39",
+		"@types/chance": "^0.7.35",
+		"@types/jasmine": "^2.6.0",
+		"@types/node": "^8.0.30",
+		"angular-mocks": "^1.6.6",
+		"awesome-typescript-loader": "^3.2.3",
+		"css-loader": "^0.28.7",
+		"html-loader": "^0.5.1",
+		"html-webpack-plugin": "^2.30.1",
+		"jasmine-core": "^2.8.0",
+		"karma": "^1.7.1",
+		"karma-coverage": "^1.1.1",
+		"karma-jasmine": "^1.1.0",
+		"karma-phantomjs-launcher": "^1.0.4",
+		"karma-remap-istanbul": "^0.6.0",
+		"karma-spec-reporter": "^0.0.31",
+		"node-sass": "^4.5.3",
+		"phantomjs-prebuilt": "^2.1.15",
+		"sass-loader": "^6.0.6",
+		"stryker": "^0.10.3",
+		"stryker-api": "^0.9.0",
+		"stryker-html-reporter": "^0.8.0",
+		"stryker-jasmine": "^0.6.0",
+		"stryker-karma-runner": "^0.8.0",
+		"style-loader": "^0.18.2",
+		"typescript": "^2.5.2",
+		"webpack": "^3.6.0"
+	}
+}
