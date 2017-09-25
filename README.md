@@ -1,4 +1,4 @@
-# NutriStarter
+# NutriStarter [![Build Status](https://travis-ci.org/omar10594/nutri-starter.svg?branch=master)](https://travis-ci.org/omar10594/nutri-starter) [![dependencies Status](https://david-dm.org/omar10594/nutri-starter/status.svg)](https://david-dm.org/omar10594/nutri-starter) [![devDependencies Status](https://david-dm.org/omar10594/nutri-starter/dev-status.svg)](https://david-dm.org/omar10594/nutri-starter?type=dev)
 
 Basic project to test tools.
 
